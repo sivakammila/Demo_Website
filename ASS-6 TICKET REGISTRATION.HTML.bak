@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <title>RAILWAY TICKET </title>
+ </head>
+ <body STYLE="BACKGROUND-COLOR:PINK;">
+     <CENTER>
+      <H1>TICKET REGISRATION</H1>
+	  <HR></HR>
+	  <MARQUEE STYLE="COLOR:RED;" direction="right">20% discount for credit cards payments</marquee>
+	  <form>
+	     <FIELDSET STYLE="WIDTH:800PX; HEIGH:800PX;">
+	     <table>
+		 <br></br>
+	      <tr><td><fieldset STYLE="WIDTH:300PX; HEIGH:60PX;">
+		 <LEGEND>FIRST NAME <SUP STYLE="COLOR:RED;">*</SUP></LEGEND>
+		 <INPUT STYLE="WIDTH:200PX;BORDER:0PX;OUTLINE:0PX;"></input></FIELDSET></td>
+		 <td><FIELDSET STYLE="WIDTH:300PX; HEIGH:60PX;">
+		<LEGEND>LAST NAME <SUP STYLE="COLOR:RED;">*</SUP></LEGEND>
+		<INPUT STYLE="WIDTH:200PX;BORDER:0PX;OUTLINE:0PX;"></INPUT></FIELDSET></td></tr>
+		<tr><td><INPUT PATTERN="[0-9]{1,2}" PLACEHOLDER="ENTER AGE" STYLE="WIDTH:320; HEIGH:00;"></INPUT><td></tr>
+		<tr><td><INPUT PLACEHOLDER="ENTER DESTINATION" STYLE="WIDTH:320; HEIGH:100;"></INPUT></td></tr>
+		<tr><td><pre>                     <INPUT TYPE="SUBMIT" VALUE="BOOK">            </INPUT><INPUT TYPE="RESET" VALUE="CLEAR"></INPUT></pre></td></tr>
+		 </table>
+		 </FIELDSET>
+		</FORM>
+		</CENTER>
+ </body>
+</html>

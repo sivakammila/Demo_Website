@@ -1,0 +1,74 @@
+<html>
+ <head>
+  <title>HTML LIST</title>
+ </head>
+ <body>
+       <H1>LIST OF SUBJECTS</H1>
+	   <!--UNORDERED LIST-->
+	   <UL>
+	    <LI>HTML</LI>
+		<LI>CSS</LI>
+		<LI>JAVA_SCRIPT</LI>
+	  </UL>
+
+	      <!--change the bullets of unordered list-->
+
+	  <ul style="list-style-type:circle">
+       <LI>HTML</LI>
+		<LI>CSS</LI>
+		<LI>JAVA_SCRIPT</LI>
+		<li>sql</li>
+    <ul style="list-style-type:square">
+        <LI>HTML</LI>
+		<LI>CSS</LI>
+		<LI>JAVA_SCRIPT</LI>
+		<li>sql</li>
+	<ul style="list-style-type:disc">
+        <LI>HTML</LI>
+		<LI>CSS</LI>
+		<LI>JAVA_SCRIPT</LI>
+		<li>sql</li>
+	  </ul>
+	  <!--ORDERED LIST-->
+       <H2>ORDERED</H2>
+	   <OL style="list-style-type:none;">
+	     <LI>square</LI>
+         <LI>circle</LI>
+		 <LI>disc</LI>
+
+	         <!--change the bullets of ordered list-->
+
+	  <ol style="list-style-type:lower-roman">
+       <LI>HTML</LI>
+		<LI>CSS</LI>
+		<LI>JAVA_SCRIPT</LI>
+		<li>sql</li>
+		
+		    <ol style="list-style-type:upper-roman">
+       <LI>HTML</LI>
+		<LI>CSS</LI>
+		<LI>JAVA_SCRIPT</LI>
+		<li>sql</li>
+		   
+		     <ol style="list-style-type:upper-alpha">
+       <LI>HTML</LI>
+		<LI>CSS</LI>
+		<LI>JAVA_SCRIPT</LI>
+		<li>sql</li>
+		  
+		    <ol style="list-style-type:lower-alpha">
+       <LI>HTML</LI>
+		<LI>CSS</LI>
+		<LI>JAVA_SCRIPT</LI>
+		<li>sql</li>
+		 
+		  <ol style="list-style-type:decimal">
+       <LI>decimal</LI>
+		<LI>upper-roman</LI>
+		<LI>lower-roman</LI>
+		<li>upper-alpha</li>
+		<li>lower-alpha</li>
+		 </ol>
+		
+ </body>
+</html>

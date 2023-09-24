@@ -1,0 +1,36 @@
+<html>
+ <head>
+  <title>html table</title>
+ </head>
+ <body>
+       <form>
+	   <table>
+	        <tr>
+			   <!--in htm table label is optional not mandetory-->
+			   <td><label>enter name</label></td>
+			   <td>:</td>
+			   <td><input required></input></td>
+			</tr>
+			<tr>
+			   <td>enter mobile</td>
+			   <td>:</td>
+			   <td><input type="number" required></input></td>
+			</tr>
+			<tr>
+			   <td>select gender</td>
+			   <td>:</td>
+			   <td><input type="radio" name="gender">m</input>
+			       <input type="radio" name="gender">f</input>
+				   <input type="radio" name="gender">others</input>
+			   </td>
+			</tr>
+			<tr>
+			  <td></td><!--first colomn is empty i want to display submit button in second coloumn-->
+			  <td>:</td>
+			  <td><input type="submit"></input>
+			</tr>
+	   </table>
+	   </form>
+   
+ </body>
+</html>

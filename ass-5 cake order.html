@@ -1,0 +1,60 @@
+<html>
+ <head>
+  <title>cake order</title>
+ </head>
+ <body style="background-color:pink;">
+    <center>
+    <h1 style="background-color:red;color:white;"><ins>Bakers</ins></h1>
+	<marquee><img src="cake.jpg" width="300" height="300" ></img></marquee>
+	<marquee><video src="cakebaker.mp4" controls autoplay muted width="400" height="400"></video></marquee>
+	<form>
+	   <table>
+            <h4><ins>Enter details</ins></h4>
+			 <tr>
+			 <td>select quantity
+			 </td>
+			 <td><select>
+			 <option>-select-</option>
+			 <option>1</option>
+			 <option>2</option>
+			 <option>3</option>
+			 <option>4</option>
+			 </select></td>
+			 </tr>
+			 <tr>
+			 <td>select flavour</td>
+			 <td><input list="ans" placeholder="flavour" required></input>
+			 <datalist id="ans">
+			     <option>strawberry</option>
+				 <option>dark</option>
+				 <option>kitkat</option>
+				 <option>banana cake</option>
+				 <option>pineapple cake</option>
+				 <option>lemon cake</option>
+				<option>cheese cake</option>
+				<option>vanilla cake</option>
+				<option>red velvet cake</option>
+				<option>chocolate cake</option>
+				</datalist>
+				 </td>
+				 </tr>
+			   <td>Enter message</td>
+			   <td><input  pattern="[A-Za-z]{2,10}"  placeholder="enter message" required></input></td>
+			 </tr>
+			 <tr>
+			 <td>Adress</td>
+			 <td><textarea minlength="5" maxlength="50" required></textarea></td>
+			 </tr>
+			 <tr>
+			 <td>select payment method</td>
+			 <td><input type="radio" name="od" required>cod</input>
+			     <input type="radio" name="od">online</input>
+				 </td>
+			 </tr>
+			 <td></td>
+             <td><input type="submit" value="order"></input></td>
+	   </table>
+	</form>
+  
+ </body>
+</html>

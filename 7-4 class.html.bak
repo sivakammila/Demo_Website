@@ -1,0 +1,13 @@
+<html>
+ <head>
+  <title>PASSWORD</title>
+ </head>
+ <body>
+     <form>
+       <INPUT TYPE="PASSWORD" PATTERN="[a-zA-Z]{2, }"[0-9]{1,4}[#!@$%*&]{1} title="for ex ABCq12@"></input>
+	   <br></br>
+	   <input type="submit" value="check"></input>
+	   </form>
+  
+ </body>
+</html>

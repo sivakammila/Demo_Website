@@ -1,0 +1,13 @@
+<html>
+ <head>
+  <title>video</title>
+ </head>
+ <body>
+      <h1><ins>video</h1></ins>
+	  <video src="siva3.mp4" controls width="500"height="500"></video>
+	  <br></br>
+	<marquee><video src="C:\Users\msi\Downloads\siva3.mp4" controls autoplay unmuted width="500"height="500"></video></marquee>
+      <br></br>
+	  <audio src="vijay.mp3" controls></audio>
+ </body>
+</html>

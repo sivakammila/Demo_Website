@@ -1,0 +1,17 @@
+<html>
+ <head>
+
+  <title>PATTERNS</title>
+ </head>
+ <body>
+      <H2>PATTERNS</H2>
+	   <FORM>
+	     <LABEL>ENTER MOBILE NUMBER</LABEL>
+		 <INPUT PATTERN="[0-9]{10}"></INPUT>
+		 <BR></BR>
+          <LABEL>USERNAME</LABEL>
+          <INPUT PATTERN="[a-z]{4}[0-9]{3}"></input>
+		 <INPUT TYPE="SUBMIT" VALUE="REGISTER"></INPUT>
+		 </FORM>
+ </body>
+</html>

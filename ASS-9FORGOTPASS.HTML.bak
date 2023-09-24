@@ -1,0 +1,38 @@
+<html>
+ <head>
+  <title>FORGOT PASSWORD</title>
+ </head>
+ <body>
+ <pre>
+
+
+
+
+
+
+
+
+
+    </pre>
+    <center>
+    <form>
+	<fieldset style="height:200px; width:40%; background-color:lightgreen;">
+	<table>
+	<br></br>
+	    <tr>
+       <TD>PHONE_NO</TD>
+	  <TD><INPUT TYPE="NUMBER" PATTERN="[0-9]{10}"></INPUT></TD></TR>
+	  <TR>
+	  <TD>NEW_PASSWORD</TD>
+	  <TD><INPUT TYPE="PASSWORD"></INPUT></TD></TR>
+	  <TR>
+	  <TD>CONFIRM_NEW_PASSWORD</TD>
+	  <TD><INPUT TYPE="PASSWORD" Placeholder="enter correct password"></INPUT></TD></TR>
+	  <TR>
+	  <TR>
+	  <TD></TD>
+	  <TD><pre>          <input type="submit" value="ok"></pre></TD></input>
+	  </table>
+	  </form>
+ </body>
+</html>
